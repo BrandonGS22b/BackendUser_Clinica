@@ -1,0 +1,31 @@
+# Ignorar directorio node_modules
+node_modules/
+
+# Ignorar archivos de respaldo de editor
+.vscode/
+.idea/
+
+# Ignorar archivos de compilación y/o ejecución
+/build/
+/dist/
+/out/
+*.log
+
+# Ignorar archivos de dependencias y cachés de paquetes
+package-lock.json
+yarn.lock
+.pnp/
+
+# Ignorar archivos generados por sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de registros y errores
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# Ignorar archivos de caché de editor
+.cache/
